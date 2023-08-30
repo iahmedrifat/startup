@@ -1,0 +1,169 @@
+body{
+	background-color: black;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+}
+.div1{
+	background-color: rgb(255, 255, 255);
+    width: 280px;
+	padding: 30px 0px 30px 25px;
+	row-gap: 17px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 25px;
+	margin-top: 50px;
+	margin-left: 30px;
+}
+.github{
+	width: 40px;
+	height: 40px;
+}
+.div1sub1{
+	display: flex;
+	text-decoration: none;
+}
+.a1{
+	display: flex;
+	align-items: center;
+	font-weight: 700;
+	text-decoration: none;
+	cursor: pointer;
+	color: black;
+	column-gap: 15px;
+	transition: padding .2s ease-in ;
+}
+.a1:hover{
+	padding-left: 15px;
+}
+.div-bap{
+	display: flex;
+	flex-direction: column;
+}
+.name{
+	font-weight: 700;
+	font-size: 30px;
+	text-align: center;
+}
+.div1name{
+	background-color: rgb(255, 255, 255);
+    width: 305px;
+	padding: 30px 0px 30px 0px;
+	row-gap: 17px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 25px;
+	margin-top: 50px;
+	margin-left: 30px;
+}
+.div-dada{
+	display: flex;
+}
+
+
+
+.clock {
+	height: 20vh;
+	color: white;
+	font-size: 22vh;
+	line-height: 20.4vh;
+	display: flex;
+	position: relative;
+	/*background: green;*/
+	overflow: hidden;
+  }
+  
+  .clock::before, .clock::after {
+	content: '';
+	width: 7ch;
+	height: 3vh;
+	background: linear-gradient(to top, transparent, black);
+	position: absolute;
+	z-index: 2;
+  }
+  
+  .clock::after {
+	bottom: 0;
+	background: linear-gradient(to bottom, transparent, black);
+  }
+  
+  .clock > div {
+	display: flex;
+  }
+  
+  .tick {
+	line-height: 17vh;
+  }
+  
+  .tick-hidden {
+	opacity: 0;
+  }
+  
+  .move {
+	-webkit-animation: move linear 1s infinite;
+			animation: move linear 1s infinite;
+  }
+  
+  @-webkit-keyframes move {
+	from {
+	  transform: translateY(0vh);
+	}
+	to {
+	  transform: translateY(-20vh);
+	}
+  }
+  
+  @keyframes move {
+	from {
+	  transform: translateY(0vh);
+	}
+	to {
+	  transform: translateY(-20vh);
+	}
+  }
+.div2222{
+	font-weight: 500;
+	font-family: 'Poppins', sans-serif;
+    display: flex;
+	flex-direction: column;
+	margin-top: 85px;
+	margin-left: 80px;
+}
+.div1clone{
+	background-color: rgb(255, 255, 255);
+    width: 280px;
+	padding: 30px 0px 30px 25px;
+	row-gap: 17px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 25px;
+	margin-top: 50px;
+	margin-left: 30px;
+}
+.div1sub1clone{
+	display: flex;
+	text-decoration: none;
+}
+.anot{
+	display: flex;
+    column-gap: 20px;
+}
+.another{
+	margin-left: -25px;
+}
+.div1clone1{
+	background-color: rgb(255, 255, 255);
+    width: 280px;
+	padding: 30px 0px 30px 25px;
+	row-gap: 17px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 25px;
+	margin-top: 50px;
+	margin-left: 80px;
+}
+.div1sub1clone1{
+	background-color: transparent;
+	border-bottom: 2.5px solid black;
+	font-weight: 700;
+    height: 31px;
+}
